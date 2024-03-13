@@ -1,33 +1,32 @@
-# [JSL01] Submission: Syntax-Engine Interaction Challenge
+# [JSL01] Syntax-Engine Interaction Challenge
 
-You will: 
-1. Use the Starter Code Repo, 
-2. Code your solution,
-3. Commit changes to your repo
-3. Submit GitHub Repo Link to LMS [JSL01] Submission Project Tab
+## Project Overview
+As part of the [JSL] JavaScript Language (2024) course, I have taken on the challenge of building a JavaScript function to validate user input for a virtual pet adoption website. The primary objective is to create a function that checks if the user input follows a specific syntax pattern: starting with "pet_" followed by a combination of letters and numbers.
 
-Imagine you are building a virtual pet adoption website, and you need to create a JavaScript function that checks if the user has entered valid pet adoption details. Write a function that takes a string as input and validates if it follows a specific syntax, such as starting with "pet_" followed by a combination of letters and numbers. If the input follows the syntax, return "Valid Syntax," otherwise, return "Invalid Syntax."
+## Task
+My task is to complete the `validateSyntax` function in the `script.js` file to perform the following:
 
-![alt text](jsl_01_final_result.gif)
+1. Retrieve the user input from an input field with the ID `petInput`.
+2. Define a regular expression pattern to validate the syntax of the input string (starting with "pet_" followed by a combination of letters and numbers).
+3. Test the input string against the defined regular expression pattern.
+4. If the input matches the pattern, set the result to "Valid Syntax"; otherwise, set it to "Invalid Syntax".
+5. Display the validation result in an element with the ID `result`.
 
-## Challenge Instructions
-1. In the script.js file, complete the validateSyntax function to check if the input string starts with "pet_" and is followed by a combination of letters and numbers.
-2. If the input follows the correct syntax, set result to "Valid Syntax." Otherwise, set it to "Invalid Syntax."
-3. Test your function by entering different strings in the input box and clicking the validate button.
+## Testing
+To test my solution, I will follow these steps:
 
-## How to Test 
-- Run the index.html challenge in a browser.
-- Enter different pet adoption details in the input box and click the validate button to see the results.
-- Make sure your solution works for a variety of inputs.
-- Open the console and debug your code until there are no errors.
+1. Open the `index.html` file in a web browser.
+2. Enter different pet adoption details in the input box.
+3. Click the "Validate" button to see the validation result.
+4. Open the browser's console and debug my code until there are no errors.
 
-## Instructions for Running the Code
-1. Save the HTML, CSS, and JavaScript files in a folder.
-2. Open the folder in VSCode.
-3. Right-click on index.html and open with a browser (use Live Server if available).
-4. Modify the script.js file to correct the syntax errors and save the file.
-5. Refresh your browser to view the changes.
+## Running the Code
+To run the code locally, I will follow these steps:
 
-This challenge helps students practice basic string manipulation and validation in JavaScript, along with simple DOM manipulation to create an interactive and user-friendly interface.
+1. Save the `index.html`, `style.css`, and `script.js` files in a folder.
+2. Open the folder in a code editor (e.g., Visual Studio Code).
+3. Right-click on `index.html` and open it with a web browser (use Live Server if available).
+4. Modify the `script.js` file to correct any syntax errors and save the file.
+5. Refresh the browser to view the changes.
 
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pqPae6ZH7
+
