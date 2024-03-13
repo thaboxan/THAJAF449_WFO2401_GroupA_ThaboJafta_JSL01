@@ -42,6 +42,7 @@ button:hover {
 
 .invalid {
     color: #ff4500;
+    border: #ff4500;
 }
 
 .emoji {
